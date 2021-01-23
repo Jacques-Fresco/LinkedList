@@ -82,7 +82,7 @@ namespace LinkedList.Model
                     {
                         previous.Next = current.Next;
                         if (current.Next == null) Tail = previous;
-                         Count--;
+                        Count--;
                         return;
                     }
 
